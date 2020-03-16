@@ -1,13 +1,14 @@
 # Bangali_Handwritten_Grapheme_Classification
 Bengali is the 5th most spoken language in the world with hundreds of million of speakers. It’s the official language of Bangladesh and the second most spoken language in India. Considering its reach, there’s significant business and educational interest in developing AI that can optically recognize images of the language handwritten. This work hopes to improve on approaches to Bengali recognition.
+https://www.kaggle.com/tanmaymaloo/fork-of-final-bengali-fe31e3/data
 
 # About
-for each image we need to provide 3 output i.e. **consonant_diacritic grapheme_root vowel_diacritic** therefore, for each prediction we made each model seperately so that for improving each output weights will change can't effect the accuracy of other output
-**Accuracy** 
-From resnet the Score Obtained is low i.e. .85 (because no unfreezing was done)
-From densenet the Score Obtained is i.e. .936
-
-
+for each image we need to provide 3 output i.e. **consonant_diacritic grapheme_root vowel_diacritic** therefore, for each prediction we made each model seperately so that for improving each output weights will change can't effect the accuracy of other output  
+**Accuracy**  
+From resnet the Score Obtained is low i.e. .85 (because no unfreezing was done)  
+From densenet the Score Obtained is i.e. .936  
+  
+  
 # required Data
 1. https://www.kaggle.com/c/bengaliai-cv19
 2. https://www.kaggle.com/iafoss/grapheme-imgs-128x128 (can make it your own using code in inference ipynb file)
