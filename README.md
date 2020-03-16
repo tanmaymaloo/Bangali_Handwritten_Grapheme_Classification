@@ -3,6 +3,10 @@ Bengali is the 5th most spoken language in the world with hundreds of million of
 
 # About
 for each image we need to provide 3 output i.e. **consonant_diacritic grapheme_root vowel_diacritic** therefore, for each prediction we made each model seperately so that for improving each output weights will change can't effect the accuracy of other output
+**Accuracy** 
+From resnet the Score Obtained is low i.e. .85 (because no unfreezing was done)
+From densenet the Score Obtained is i.e. .936
+
 
 # required Data
 1. https://www.kaggle.com/c/bengaliai-cv19
@@ -11,17 +15,19 @@ for each image we need to provide 3 output i.e. **consonant_diacritic grapheme_r
   1. https://www.kaggle.com/tanmaymaloo/saved-models (resNet saved-models)
   2. https://www.kaggle.com/tanmaymaloo/densenetmodel (densenet after Freezing unfreezing saved models)
 
-There Is a file Name 
-**bangali_training.ipynb (https://github.com/tanmaymaloo/Bangali_Handwritten_Grapheme_Classification/blob/master/bangali_training.ipynb) showing the complete process of**
+
+# Files
+There Is a file Name  
+**bangali_training.ipynb (https://github.com/tanmaymaloo/Bangali_Handwritten_Grapheme_Classification/blob/master/bangali_training.ipynb) showing the complete process of**  
 1. Using Transfer learning for models arc.
 2. *Freezing and unfreezinh the layers of Arc.
 3. choosing the appropiate LR
 4. saving the Models
 
-**Other File such as bangali-dense-fastai.ipynb(https://github.com/tanmaymaloo/Bangali_Handwritten_Grapheme_Classification/blob/master/bangali-dense-fastai.ipynb) showing the inferense of the use of densenet121 as a TL and submittion**  
-**File named bangali-ResNet-FastAi.ipynb(https://github.com/tanmaymaloo/Bangali_Handwritten_Grapheme_Classification/blob/master/bangali_ResNet_FastAi.ipynb) shoing the use of resNet34 as a TL and submittion**
+Other File such as **bangali-dense-fastai.ipynb**(https://github.com/tanmaymaloo/Bangali_Handwritten_Grapheme_Classification/blob/master/bangali-dense-fastai.ipynb) showing the inferense of the use of densenet121 as a TL and submittion   
+File named **bangali-ResNet-FastAi.ipynb**(https://github.com/tanmaymaloo/Bangali_Handwritten_Grapheme_Classification/blob/master/bangali_ResNet_FastAi.ipynb) shoing the use of resNet34 as a TL and submittion  
 
-The Training and validation Accuracy For denseNet as followes for all the 3 model for each output
+# The Training and validation Accuracy For denseNet as followes for all the 3 model for each output
 
 1. Dense-1  
 epoch	train_loss	valid_loss	time  
