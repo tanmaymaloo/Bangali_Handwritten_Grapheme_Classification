@@ -18,10 +18,10 @@ From densenet the Score Obtained is i.e. .936
 
 # Files
 1. There Is a file Name **bangali_training.ipynb (https://github.com/tanmaymaloo/Bangali_Handwritten_Grapheme_Classification/blob/master/bangali_training.ipynb) showing the complete process of**  
-1. Using Transfer learning for models arc.
-2. Freezing and unfreezing the layers of Arc.
-3. choosing the appropiate LR
-4. saving the Models
+ Using Transfer learning for models arc.  
+Freezing and unfreezing the layers of Arc.    
+choosing the appropiate LR  
+saving the Models  
   
 2. Other File such as **bangali-dense-fastai.ipynb**(https://github.com/tanmaymaloo/Bangali_Handwritten_Grapheme_Classification/blob/master/bangali-dense-fastai.ipynb) showing the inferense of the use of densenet121 as a TL and submittion  
   
