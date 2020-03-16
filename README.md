@@ -2,23 +2,23 @@
 Bengali is the 5th most spoken language in the world with hundreds of million of speakers. It’s the official language of Bangladesh and the second most spoken language in India. Considering its reach, there’s significant business and educational interest in developing AI that can optically recognize images of the language handwritten. This work hopes to improve on approaches to Bengali recognition.
 
 There Is a file Name 
--**bangali_training.ipynb (https://github.com/tanmaymaloo/Bangali_Handwritten_Grapheme_Classification/blob/master/bangali_training.ipynb) showing the complete process of**
+**bangali_training.ipynb (https://github.com/tanmaymaloo/Bangali_Handwritten_Grapheme_Classification/blob/master/bangali_training.ipynb) showing the complete process of**
 1. Using Transfer learning for models arc.
 2. *Freezing and unfreezinh the layers of Arc.
 3. choosing the appropiate LR
 4. saving the Models
 
--**Other File such as bangali-dense-fastai.ipynb showing the inferense of the use of densenet121 as a TL and submittion**
--**File named bangali-ResNet-FastAi.ipynb shoing the use of resNet34 as a TL and submittion**
+**Other File such as bangali-dense-fastai.ipynb showing the inferense of the use of densenet121 as a TL and submittion**  
+**File named bangali-ResNet-FastAi.ipynb shoing the use of resNet34 as a TL and submittion**
 
 The Training and validation Accuracy For denseNet as followes for all the 3 model for each output
 1. Dense-1
-epoch	train_loss	valid_loss	time
--0	2.009743	1.587130	12:15
--1	0.971630	0.711024	10:19
--2	0.697952	0.505359	10:22
--3	0.551502	0.431051	10:23
--4	0.490617	0.413210	10:22
+epoch	train_loss	valid_loss	time  
+-0	2.009743	1.587130	12:15  
+-1	0.971630	0.711024	10:19  
+-2	0.697952	0.505359	10:22  
+-3	0.551502	0.431051	10:23  
+-4	0.490617	0.413210	10:22  
 
 2. UNFREEZ
 epoch	train_loss	valid_loss	time
