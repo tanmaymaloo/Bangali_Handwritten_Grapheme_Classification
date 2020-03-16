@@ -2,8 +2,8 @@
 Bengali is the 5th most spoken language in the world with hundreds of million of speakers. It’s the official language of Bangladesh and the second most spoken language in India. Considering its reach, there’s significant business and educational interest in developing AI that can optically recognize images of the language handwritten. This work hopes to improve on approaches to Bengali recognition.
 
 There Is a file Name bangali_training.ipynb showing the complete process of 
- **Using Transfer learning for models arc.**
-**Freezing and unfreezinh the layers of Arc.**
-**choosing the appropiate LR**
-**saving the Models**
+1. Using Transfer learning for models arc.
+2. *Freezing and unfreezinh the layers of Arc.
+3. choosing the appropiate LR
+4. saving the Models
 
