@@ -20,7 +20,7 @@ From densenet the Score Obtained is i.e. .936
 There Is a file Name  
 **bangali_training.ipynb (https://github.com/tanmaymaloo/Bangali_Handwritten_Grapheme_Classification/blob/master/bangali_training.ipynb) showing the complete process of**  
 1. Using Transfer learning for models arc.
-2. *Freezing and unfreezinh the layers of Arc.
+2. Freezing and unfreezing the layers of Arc.
 3. choosing the appropiate LR
 4. saving the Models
 
